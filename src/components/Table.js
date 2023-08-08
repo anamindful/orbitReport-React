@@ -15,8 +15,8 @@ const Table = ({ sat }) => {
           {sat.map((data) => (
             <tr key={data.id}>
               <td>{data.name}</td>
-              <td>{data.orbitType}</td>
-              <td>{data.launchData}</td>
+              <td>{data.type}</td>
+              <td>{data.launchDate}</td>
               <td>{data.operational ? "Active" : "Inactive"}</td>
             </tr>
           ))}
