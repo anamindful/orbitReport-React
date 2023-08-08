@@ -15,4 +15,7 @@ const Table = ({ sat }) => {
   );
 };
 
+//we will expand this to display required data
+//for each satellite.
+
 export default Table;
